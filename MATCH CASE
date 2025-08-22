@@ -1,0 +1,10 @@
+day = int(input("enter day count:"))
+match day:
+    case 1:
+        print('sunday')
+    case 2:
+        print ('sat')
+    case 3:
+        print ('weekdays')
+    case _:
+        print('holiday')
