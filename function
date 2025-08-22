@@ -1,0 +1,7 @@
+def add (a,b):
+    result = a+b
+    return result 
+out = add (2,5)
+x= add (2,1)
+new = add (8,9)
+print (new,x, out)
